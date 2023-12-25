@@ -1,6 +1,7 @@
 let blacklists = {}
 
 let cookie = document.cookie
-console.log(cookie)
+let body = document.getElementsByName("body")
+body.innerText = body
 
 cookie = cookie + ", read!"
